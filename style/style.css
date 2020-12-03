@@ -109,6 +109,8 @@ body{
 }
 .header-registration-list-int{
 	margin: 15px 0;
+	background-color: white;
+	color: gray;
 }
 .header-registration-list-int{
 	padding: 10px 20px;
