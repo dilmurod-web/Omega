@@ -26,7 +26,7 @@
 		align-items: center;
 	}
 	.elements-section-photo{
-		width: 400%;
+		width: 400px
 	}
 	.elements-section-img{
 		width: 100%;
@@ -69,6 +69,117 @@
 	.container{
 		width: 720px;
 	}
+	.nav-logo{
+		font-size: 18px;
+	}
+	.nav-item-link{
+		font-size: 14px;
+	}
+	.header-info{
+		width: 300px;
+		padding-left: 20px;
+	}
+	.header-info-title{
+		font-size: 40px;
+	}
+	.header-info-subtitle{
+		font-size: 16px;
+	}
+	.header-registration-list{
+		top: -180px;
+		left: -140px;
+		width: 300px;
+	}
+	.whyBest-section-title{
+		font-size: 40px;
+	}
+	.whyBest-section-img{
+		width: 720px;
+	}
+	.whyBest-section-img-btn{
+		top: 230px;
+		left: 320px;
+		width: 40px;
+		height: 40px;
+	}
+	.whyBest-section-img-btn-icon{
+		width: 8px;
+		height: 8px;
+	}
+	.whyBest-section-list{
+		justify-content: space-around;
+	}
+	.whyBest-section-item{
+		width: 45%;
+	}
+	.elements-section > .container{
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 20px;
+	}
+	.elements-section-photo{
+		width: 600px;
+	}
+	.elements-section-info{
+		width: 720px;
+		text-align: center;
+	}
+	.elements-section-info-title{
+		width: 650px;
+		margin: 0 auto;
+		margin-top: 45px;
+	}
+	.elements-section-info-subtext{
+		width: 500px;
+		margin: 0 auto;
 
+	}
+	.elements-section-info-link{
+		margin-bottom: 35px;
+		padding: 10px 20px;
+	}
+	.users-section > .container{
+		display: flex;
+		flex-direction: column-reverse;
+		padding-bottom: 30px;
+		border-bottom: 1px solid white;
+	}
+	.questions-section > .container{
+		padding-top: 30px;
+	}
+	.save_tons-title{
+		font-size: 40px;
+	}
+	.save_tons-subtitle{
+		font-size: 35px;
+	}
+	.footer-item-link{
+		font-size: 13px;
+	}
+	.footer-subtext{
+		font-size: 10px;
+	}
+}
 
+/*Small*/
+
+@media(max-width: 576px){
+	.container{
+		width: 540px;
+	}
+	.header-registration-img{
+		display: none;
+	}
+	.header-info-title{
+		font-size: 20px;
+		width: 260px;
+		margin-bottom: 10px;
+	}
+	.header-info-subtitle{
+		font-size: 12px;
+		width: 220px;
+	}
+	.whyBest-section-list{
+		width: 150px;
+	}
 }
