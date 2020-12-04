@@ -1,0 +1,75 @@
+
+/*Large*/
+
+@media(max-width: 992px){
+	.container{
+		width: 960px;
+	}
+	.header-registration-list{
+		left: -60px;
+	}
+	.header-info-title{
+		font-size: 50px;
+	}
+	.header-info-subtitle{
+		font-size: 18px;
+	}
+	.whyBest-section-img{
+		width: 960px;
+	}
+	.whyBest-section-img-btn{
+		top: 300px;
+		right: 450px;
+	}
+	.elements-section > .container{
+		display: flex;
+		align-items: center;
+	}
+	.elements-section-photo{
+		width: 400%;
+	}
+	.elements-section-img{
+		width: 100%;
+	}
+	.elements-section-info-title{
+		font-size: 45px;
+	}
+	.elements-section-info-subtext{
+		font-size: 16px;
+		width: 400px;
+	}
+	.users-section-title{
+		font-size: 45px;
+		width: 450px;
+		padding-left: 20px;
+	}
+	.users-section-subtext{
+		font-size: 16px;
+		width: 400px;
+		padding-left: 20px;
+	}
+	.save_tons-section > .container{
+		display: flex;
+		justify-content: flex-start;
+	}
+	.save_tons-texts{
+		margin-left: 70px;
+	}
+	.save_tons-title{
+		font-style: 50PX;
+	}
+	.save_tons-subtitle{
+		font-size: 50PX;
+	}	
+}
+
+/*Medium*/
+
+@media(max-width: 768px){
+	.container{
+		width: 720px;
+		overflow-x: hidden;
+	}
+
+
+}
