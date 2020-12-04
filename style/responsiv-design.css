@@ -68,7 +68,6 @@
 @media(max-width: 768px){
 	.container{
 		width: 720px;
-		overflow-x: hidden;
 	}
 
 
