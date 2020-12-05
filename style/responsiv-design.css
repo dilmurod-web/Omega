@@ -420,9 +420,9 @@
 
 /*Extra-Extra-Extar Small*/
 
-@media(max-width: 400px){
+@media(max-width: 360px){
 	.container{
-		width: 390px;
+		width: 340px;
 		margin: 0 auto;
 	}
 	.nav-logo{
