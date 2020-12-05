@@ -173,6 +173,9 @@
 		flex-direction: column;
 		justify-content: center;
 	}
+	.header-registration{
+		width: auto;
+	}
 	.header-registration-img{
 		display: none;
 	}
@@ -203,9 +206,6 @@
 		margin: 10;
 		padding: 5px 10px;
 	}
-	.whyBest-section > .container{
-
-	}
 	.whyBest-section-title{
 		font-size: 25px;
 		width: 530px;
@@ -215,17 +215,28 @@
 		font-size: 18px;
 	}
 	.whyBest-section-img{
-		width: 540px;
+		width: 100%;
 	}
 	.whyBest-section-img-btn{
 		top: 180px;
 		left: 250px;
 	}
+	.elements-section-photo{
+		width: 100%;
+	}
+	.elements-section-img{
+		width: 100%;
+	}
+	.elements-section-info{
+		width: 100%;
+	}
 	.elements-section-info-title{
 		font-size: 28px;
+		width: 100%;
 	}
 	.elements-section-info-subtext{
 		font-size: 12px;
+		width: 100%;
 	}
 	.evrything-section-title{
 		font-size: 26px;
