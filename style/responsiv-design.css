@@ -2,8 +2,12 @@
 /*Large*/
 
 @media(max-width: 992px){
+	section{
+
+	}
 	.container{
 		width: 960px;
+		margin: 0 auto;
 	}
 	.header-registration-list{
 		left: -60px;
@@ -68,6 +72,7 @@
 @media(max-width: 768px){
 	.container{
 		width: 720px;
+		margin: 0 auto;
 	}
 	.nav-logo{
 		font-size: 18px;
@@ -166,6 +171,7 @@
 @media(max-width: 576px){
 	.container{
 		width: 540px;
+		margin: 0 auto;
 	}
 	.header > .container{
 		padding-top: 70px;
@@ -279,6 +285,9 @@
 /*Extra Small*/
 
 @media(max-width: 500px){
+	section{
+		margin: 0 auto;
+	}
 	.container{
 		width: 100%;
 		margin: 0 auto;
@@ -407,4 +416,57 @@
 	.footer-subtext{
 		margin-top: 30px;
 	}
+}
+
+/*Extra-Extra-Extar Small*/
+
+@media(max-width: 386px){
+	.container{
+		width: 360px;
+		margin: 0 auto;
+	}
+	.nav-logo{
+		font-size: 10px;
+	}
+	.nav-item-link{
+		font-size: 8px;
+	}
+	.nav-btn{
+		font-size: 8px;
+	}
+
+	.header-info{
+		width: 100%;
+	}
+	.header-info-title{
+		width: 340px;
+		font-size: 12px;
+		margin: 0;
+		padding: 0;
+	}
+	.header-info-subtitle{
+		width: 340px;
+		font-size: 8px;
+		margin: 0;
+		padding: 0;
+	}
+	.whyBest-section-title{
+		width: 340px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.whyBest-section-subtitle{
+		width: 340px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.users-section-title{
+		font-size: 20px;
+		width: 100%;
+	}
+	.users-section-subtext{
+		font-size: 10px;
+		width: 100%;
+	}
+
 }
