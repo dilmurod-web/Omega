@@ -168,24 +168,36 @@
 		width: 540px;
 	}
 	.header > .container{
-		padding-bottom: 100px;
+		padding-top: 70px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 	.header-registration-img{
 		display: none;
 	}
+	.header-info{
+		padding: 0;
+		margin: 0;
+		width: 500px;
+		text-align: center;
+	}
 	.header-info-title{
 		font-size: 20px;
-		width: 260px;
-		margin-bottom: 10px;
+		width: 440px;
+		margin: 0 auto;
+		text-align: center;
 	}
 	.header-info-subtitle{
 		font-size: 12px;
-		width: 220px;
+		margin: 0 auto;
+		text-align: center;
+		width: 440px;
 	}
-	.header-registration{
-		width: 100px;
-		right: 130px;
-		top: 20px;
+	.header-registration-list{
+		width: 300px;
+		position: static;
+		margin: 20px auto;
 	}
 	.header-registration-list-int{
 		margin: 10;
@@ -258,6 +270,7 @@
 @media(max-width: 500px){
 	.container{
 		width: 480px;
+		margin: 0 auto;
 	}
 	.nav-item{
 		margin: 0 3px;
