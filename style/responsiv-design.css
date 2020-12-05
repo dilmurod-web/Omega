@@ -304,10 +304,12 @@
 		text-align: center;
 		padding: 0;
 		margin: 0;
-		width: 90%;
+		width: 100%;
 	}
 	.whyBest-section-subtitle{
-		width: 90%;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
 	}
 	.whyBest-section-img{
 		width: 480px;
@@ -319,8 +321,8 @@
 		width: 100%;
 	}
 	.whyBest-section-img-btn{
-		top: 170px;
-		left: 230px;
+		top: 8.5%;
+		left: 46%;
 	}
 	.whyBest-section-item{
 		width: 70%;
@@ -365,6 +367,20 @@
 	}
 	.evrything-section-title{
 		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.evrything-section-secondImg{
+		object-fit: cover;
+	}
+	.questions-section-title{
+		font-size: 45px;
+	}
+	.save_tons-section > .container{
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 40px;
 	}
 	.save_tons-section-background-image{
 		top: -90px;
@@ -373,8 +389,22 @@
 	.save_tons-texts{
 		width: 100%;
 		text-align: center;
+		margin: 0 auto;
+	}
+	.save_tons-title{
+		text-align: center;
+		margin: 0 auto;
+	}
+	.save_tons-subtitle{
+		text-align: center;
+		margin:  0 auto;
 	}
 	.save_tons-section-btn{
 		margin: 0 auto;
+		position: static;
+		display: block;
+	}
+	.footer-subtext{
+		margin-top: 30px;
 	}
 }
