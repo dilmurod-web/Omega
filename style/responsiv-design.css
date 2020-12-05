@@ -280,7 +280,7 @@
 
 @media(max-width: 500px){
 	.container{
-		width: 480px;
+		width: 85%;
 		margin: 0 auto;
 	}
 	.nav-item{
@@ -288,24 +288,35 @@
 	}
 	.header-info-title{
 		font-size: 14px;
-		width: 180px;
+		width: 90%;
 		padding: 0;
+		margin-bottom: 15px;
 	}
 	.header-info-subtitle{
 		font-size: 8px;
-		width: 170px;
+		width: 85%;
 	}
 	.header-registration{
-		width: 100px;
+		width: 100%;
 	}
 	.whyBest-section-title{
 		margin: 0 auto;
 		text-align: center;
 		padding: 0;
 		margin: 0;
+		width: 90%;
+	}
+	.whyBest-section-subtitle{
+		width: 90%;
 	}
 	.whyBest-section-img{
 		width: 480px;
+	}
+	.whyBest-section-main{
+		width: 100%;
+	}
+	.whyBest-section-img{
+		width: 100%;
 	}
 	.whyBest-section-img-btn{
 		top: 170px;
@@ -345,5 +356,25 @@
 	}
 	.footer-subtext{
 		margin: 5px auto;
+	}
+	.users-section-photo-img{
+		width: 100%;
+	}
+	.evrything-section-subttitle{
+		width: 90%;
+	}
+	.evrything-section-title{
+		width: 90%;
+	}
+	.save_tons-section-background-image{
+		top: -90px;
+		left: 390px;
+	}
+	.save_tons-texts{
+		width: 100%;
+		text-align: center;
+	}
+	.save_tons-section-btn{
+		margin: 0 auto;
 	}
 }
